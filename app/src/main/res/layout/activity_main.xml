@@ -5,8 +5,21 @@
     android:layout_height="match_parent"
     >
 
+<TextView
+    android:id="@+id/score_information"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="reset"
+    android:text="Inning Information"
+    android:background="@android:color/darker_gray"
+    android:padding="16dp"
+    android:layout_alignParentTop="true"
+    />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@id/score_information"
+        android:id="@+id/play_information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -29,17 +42,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:padding="16dp"
+                android:padding="8dp"
                 android:textSize="14sp"
                 android:textColor="#616161"
-                android:text="Team A" />
+                android:text="CUBBIES!" />
 
             <TextView
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:paddingBottom="24dp"
+                android:paddingBottom="8dp"
                 android:textSize="56sp"
                 android:textColor="#000000"
                 android:text="0" />
@@ -48,31 +61,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginLeft="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:onClick="displayForTeamA"
                 android:tag="3"
-                android:text="+3 Points" />
+                android:text="Ball" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="displayForTeamA"
                 android:layout_marginBottom="8dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginLeft="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:tag="2"
-                android:text="+2 Points" />
+                android:text="Strike" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="displayForTeamA"
                 android:layout_marginBottom="8dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginLeft="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:tag="1"
-                android:text="Free Throw" />
+                android:text="Out" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="displayForTeamA"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:tag="1"
+                android:text="Run!" />
 
         </LinearLayout>
 
@@ -98,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:padding="16dp"
+                android:padding="8dp"
                 android:text="Team B" />
 
             <TextView
@@ -106,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:paddingBottom="24dp"
+                android:paddingBottom="8dp"
                 android:textSize="56sp"
                 android:textColor="#000000"
                 android:text="0" />
@@ -116,30 +139,40 @@
                 android:layout_height="wrap_content"
                 android:onClick="displayForTeamB"
                 android:layout_marginBottom="8dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginLeft="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:tag="3"
-                android:text="+3 Points" />
+                android:text="Ball" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="displayForTeamB"
                 android:layout_marginBottom="8dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginLeft="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:tag="2"
-                android:text="+2 Points" />
+                android:text="Strike" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="displayForTeamB"
                 android:layout_marginBottom="8dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginLeft="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:tag="1"
-                android:text="Free Throw" />
+                android:text="Out" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="displayForTeamB"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:tag="1"
+                android:text="Run :(" />
 
         </LinearLayout>
 
