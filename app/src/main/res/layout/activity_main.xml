@@ -5,17 +5,53 @@
     android:layout_height="match_parent"
     >
 
-<TextView
-    android:id="@+id/score_information"
-    android:layout_centerHorizontal="true"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:onClick="reset"
-    android:text="Inning Information"
-    android:background="@android:color/darker_gray"
-    android:padding="16dp"
-    android:layout_alignParentTop="true"
-    />
+    <TextView
+        android:id="@+id/score_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+        android:text="Inning:"
+        android:background="@android:color/darker_gray"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/ball_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reset"
+        android:text="Balls:"
+        android:background="@android:color/darker_gray"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/score_information"
+        />
+
+    <TextView
+        android:id="@+id/strike_information"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="reset"
+        android:text="Strikes:"
+        android:background="@android:color/darker_gray"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ball_information"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="reset"
+        android:text="Outs:"
+        android:background="@android:color/darker_gray"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/strike_information"
+        />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_below="@id/score_information"
