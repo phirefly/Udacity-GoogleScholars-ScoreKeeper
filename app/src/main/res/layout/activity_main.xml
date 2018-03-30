@@ -101,6 +101,7 @@
                 android:layout_marginLeft="8dp"
                 android:onClick="displayForTeamA"
                 android:tag="3"
+                android:textColor="#ffffff"
                 android:text="Ball" />
 
             <Button
@@ -111,6 +112,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:tag="2"
+                android:textColor="#ffffff"
                 android:text="Strike" />
 
             <Button
@@ -121,6 +123,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:tag="1"
+                android:textColor="#ffffff"
                 android:text="Out" />
 
             <Button
@@ -131,6 +134,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:tag="1"
+                android:textColor="#ffffff"
                 android:text="Run!" />
 
         </LinearLayout>
@@ -178,6 +182,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:tag="3"
+                android:textColor="#ffffff"
                 android:text="Ball" />
 
             <Button
@@ -188,6 +193,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:tag="2"
+                android:textColor="#ffffff"
                 android:text="Strike" />
 
             <Button
@@ -198,6 +204,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:tag="1"
+                android:textColor="#ffffff"
                 android:text="Out" />
 
             <Button
@@ -208,6 +215,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
                 android:tag="1"
+                android:textColor="#ffffff"
                 android:text="Run :(" />
 
         </LinearLayout>
@@ -223,6 +231,7 @@
         android:layout_margin="32dp"
         android:onClick="reset"
         android:text="reset"
+        android:textColor="#ffffff"
         android:layout_alignParentBottom="true"
         />
 
