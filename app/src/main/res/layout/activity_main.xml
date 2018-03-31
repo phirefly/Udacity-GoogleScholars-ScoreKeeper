@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     >
 
+
     <TextView
         android:id="@+id/score_information"
         android:layout_width="wrap_content"
@@ -74,14 +75,28 @@
             android:paddingTop="16dp"
             android:layout_weight="1">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:padding="8dp"
-                android:textSize="14sp"
-                android:textColor="#616161"
-                android:text="CUBBIES!" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cubs_logo"
+                    android:src="@drawable/Chicago_Cubs_logo"
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    />
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/cubs_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="14sp"
+                    android:textColor="#616161"
+                    android:text="CUBBIES!" />
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/team_a_score"

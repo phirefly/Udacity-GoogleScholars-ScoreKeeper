@@ -10,6 +10,11 @@ import com.studio2bigdiv.android.scorekeeper.R;
 public class MainActivity extends AppCompatActivity {
     int scoreTeamA = 0;
     int scoreTeamB = 0;
+    int inningCount = 1;
+    int ballCount = 0;
+    int strikeCount = 0;
+    int outCount = 0;
+
 
     /**
      * Displays the given score for Team A.
