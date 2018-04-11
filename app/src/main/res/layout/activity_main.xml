@@ -142,7 +142,7 @@
 
                 <ImageView
                     android:id="@+id/cubs_logo"
-                    android:src="@drawable/chicago_cubs_logo"
+                    android:src="@drawable/chicago_cubs"
                     android:layout_width="100px"
                     android:layout_height="100px"
                     />
