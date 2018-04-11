@@ -5,6 +5,5 @@
         <item name="colorPrimary">#C8102E</item>
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#002F6C</item>
-        <item name="colorTitle">#616161</item>
     </style>
 </resources>
