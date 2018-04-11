@@ -142,14 +142,12 @@
 
                 <ImageView
                     android:id="@+id/cubs_logo"
-                    android:src="@drawable/chicago_cubs"
                     android:layout_width="100px"
                     android:layout_height="100px"
                     />
 
                 <TextView
                     android:layout_centerVertical="true"
-                    android:layout_toRightOf="@id/cubs_logo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="8dp"
