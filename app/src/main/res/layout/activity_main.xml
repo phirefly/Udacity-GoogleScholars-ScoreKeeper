@@ -174,7 +174,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
-                android:onClick="displayForTeamA"
+                android:onClick="ballForTeamA"
                 android:tag="3"
                 android:textColor="#ffffff"
                 android:text="Ball" />
@@ -182,7 +182,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="displayForTeamA"
+                android:onClick="strikeForTeamA"
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
@@ -190,21 +190,11 @@
                 android:textColor="#ffffff"
                 android:text="Strike" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="displayForTeamA"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginLeft="8dp"
-                android:tag="1"
-                android:textColor="#ffffff"
-                android:text="Out" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="displayForTeamA"
+                android:onClick="runForTeamA"
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
@@ -252,7 +242,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="displayForTeamB"
+                android:onClick="ballForTeamB"
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
@@ -263,7 +253,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="displayForTeamB"
+                android:onClick="strikeForTeamB"
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
@@ -274,18 +264,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="displayForTeamB"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginLeft="8dp"
-                android:tag="1"
-                android:textColor="#ffffff"
-                android:text="Out" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="displayForTeamB"
+                android:onClick="runForTeamB"
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
